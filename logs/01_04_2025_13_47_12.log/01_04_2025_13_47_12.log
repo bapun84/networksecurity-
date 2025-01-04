@@ -1,0 +1,8 @@
+[ 2025-01-04 13:47:23,031 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-04 13:47:23,072 ] 107 dagshub - INFO - Accessing as bapun84
+[ 2025-01-04 13:47:23,585 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/bapun84/networksecurity- "HTTP/1.1 200 OK"
+[ 2025-01-04 13:47:24,412 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-04 13:47:24,427 ] 107 dagshub - INFO - Initialized MLflow to track repo "bapun84/networksecurity-"
+[ 2025-01-04 13:47:24,427 ] 107 dagshub - INFO - Repository bapun84/networksecurity- initialized!
+[ 2025-01-04 13:47:46,243 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000023DFFA54730>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /bapun84/networksecurity-.mlflow/api/2.0/mlflow/runs/create
+[ 2025-01-04 13:47:51,593 ] 20 root - INFO - Initiate the data ingestion

@@ -1,0 +1,30 @@
+[ 2025-01-04 16:05:27,632 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-04 16:05:27,648 ] 107 dagshub - INFO - Accessing as bapun84
+[ 2025-01-04 16:05:28,247 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/bapun84/networksecurity- "HTTP/1.1 200 OK"
+[ 2025-01-04 16:05:28,762 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-04 16:05:29,302 ] 107 dagshub - INFO - Initialized MLflow to track repo "bapun84/networksecurity-"
+[ 2025-01-04 16:05:29,594 ] 107 dagshub - INFO - Repository bapun84/networksecurity- initialized!
+[ 2025-01-04 16:05:34,398 ] 20 root - INFO - Initiate the data ingestion
+[ 2025-01-04 16:05:42,810 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-01-04 16:05:42,810 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-04 16:05:42,810 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-01-04 16:05:42,999 ] 84 root - INFO - Exported train and test file path.
+[ 2025-01-04 16:05:42,999 ] 22 root - INFO - Data Initiation Completed
+[ 2025-01-04 16:05:43,019 ] 26 root - INFO - Initiate the data Validation
+[ 2025-01-04 16:05:43,093 ] 32 root - INFO - Required number of columns:2
+[ 2025-01-04 16:05:43,093 ] 33 root - INFO - Data frame has columns:31
+[ 2025-01-04 16:05:43,093 ] 32 root - INFO - Required number of columns:2
+[ 2025-01-04 16:05:43,093 ] 33 root - INFO - Data frame has columns:31
+[ 2025-01-04 16:05:43,492 ] 28 root - INFO - data Validation Completed
+[ 2025-01-04 16:05:43,492 ] 31 root - INFO - data Transformation started
+[ 2025-01-04 16:05:43,492 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-01-04 16:05:43,492 ] 65 root - INFO - Starting data transformation
+[ 2025-01-04 16:05:43,622 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-01-04 16:05:43,622 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-01-04 16:05:43,654 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-04 16:05:43,669 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-04 16:05:43,669 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-04 16:05:43,669 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-04 16:05:43,669 ] 35 root - INFO - data Transformation completed
+[ 2025-01-04 16:05:43,669 ] 37 root - INFO - Model Training sstared
+[ 2025-01-04 16:15:42,355 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /bapun84/networksecurity-.mlflow/api/2.0/mlflow/runs/create
